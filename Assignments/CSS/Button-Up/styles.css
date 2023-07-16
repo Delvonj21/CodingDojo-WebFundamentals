@@ -1,0 +1,32 @@
+*{
+  margin: 15px;
+}
+
+.search-button {
+  border: 2px solid #4baeaf;
+  background-color: white;
+  color: #4baeaf;
+  font-size: 16px;
+  padding: 5px 50px;
+  text-align: center;
+  border-radius: 20px;
+  }
+
+.plus-button {
+  border: none;
+  background-color: #04d1b2;
+  color: white;
+  border-radius: 50%;
+  font-size: 40px;
+}
+
+.create-button {
+  border: 3px solid black;
+  background-color: #2b78e4;
+  color: white;
+  box-shadow: 10px 5px 5px black;
+  font-size: 20px;
+  padding: 5px 40px 
+
+}
+
