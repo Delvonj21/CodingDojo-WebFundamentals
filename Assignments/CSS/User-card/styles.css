@@ -1,0 +1,56 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-card {
+  width: 100%;
+  background-color: #fff;
+  border: 3px solid #999;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  font-size: 17px;
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: #17a2b8;
+  height: 130px;
+  margin-bottom: 80px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-body h1,
+.card-body h2,
+.card-body h3, 
+.card-body p {
+  margin: 20px 0px;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: #fff;
+  height: 180px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.icons {
+  height: 20px;
+}
+
+
+
+
+a {
+  color: blue;
+}
+
+
+
