@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+  width: 775px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  margin-left: 100px;
+}
+
+.top {
+  text-align: center;
+  margin-right: 100px;
+  font-size: larger;
+}
+
+.side-nav {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  width: 200px;
+  margin-left: 100px;
+}
+
+  
+img {
+  width: 100px;
+  height: 100px;
+}
+
+
+
+.post {
+  width: 500px;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid black;
+  font-size: 16px;
+}
+
+.user-name {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.like-btn {
+  background-color: #ffd966;
+  padding: 5px 10px;
+  border: 2px solid #000;
+  box-shadow: 4px 4px #000;
+  font-size: 1.2rem;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.sub-content {
+  height: 200px;
+  width: 210px;
+  background-color: yellow;
+  margin: 5px;
+  
+}
+
+.row {
+  
+  margin: 10px;
+  display: flex;
+  align-items: flex-start;
+}

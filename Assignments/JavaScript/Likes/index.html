@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Likes</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <h1>Network</h1>
+  </div>
+  <div class="top">
+    <h2>Your Feed</h2>
+  </div>
+
+  <!-- Left Side -->
+  <div class="row">   
+  <div class="side-nav">
+    <img src="./icons/user-circle.png" alt="circle">
+    <a href="#">Add an avatar</a>
+    <h3>James Doe</h3>
+  </div>
+  <div class="main">
+        <div class="row">
+          <div class="post">
+            <!-- user card 01 -->
+            <div class="user-name" >
+              <h2>Neil M</h2>
+              <div class="likes">
+                <span id="like-1"> 9 like(s)</span>
+                <button class="like-btn" onclick="like(0)">Like</button>
+              </div>
+            </div>
+            <p>I just set up this new discord bot, let me know what you all think <a href="#">link</a></p>
+          </div>   
+        </div>
+        <div class="row">
+          <div class="post">
+            <!-- user card 02 -->
+            <div class="user-name">
+              <h2>Nichole K</h2>
+              <div class="likes">
+                <span id="like-2"> 12 like(s)</span>
+                <button class="like-btn" onclick="like(1)">Like</button>
+              </div>
+            </div>
+            <p>Just finished my <a href="#">next comic</a>, check it out</p>
+          </div>   
+        </div>
+        <div class="row">
+          <div class="post">
+            <!-- user card 03 -->
+            <div class="user-name">
+              <h2>Jim R</h2>
+              <div class="likes">
+                <span id="like-3"> 9 like(s)</span>
+                <button class="like-btn" onclick="like(2)">Like</button>
+              </div>
+            </div>
+            <p>I can't stop listening to the <a href="#">new album.</a>Who else is liking it?</p>
+          </div>   
+        </div>
+        
+        
+    </div>
+</div>
+
+  
+
+<script src="script.js"></script>
+</body>
+</html>
