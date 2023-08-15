@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DojoWeather</title>
+
+</head>
+<body>
+  <!-- nav-bar -->
+    <div class="top">
+        <div class="nav">
+              <h1 class="nav-title">DojoWeather</h1>
+              <ul class="nav-links" id="cities">
+              <li><a href="#" onclick="displayWeatherReport()">Burbank</a></li>
+              <li><a href="#" onclick="displayWeatherReport()">Chicago</a></li> 
+              <li><a href="#" onclick="displayWeatherReport()">Dallas</a></li>  
+              </ul>
+          </div>
+      </div>
+      <!-- header -->
+      <div class="container">
+            <div class="header"> 
+            <h2>San Jose</h2>
+            </div>
+            <form>
+                <label>Show temperature in</label>
+                <select name="temperature">
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            </form>
+      </div>
+      <hr>
+
+      <!-- forecast images -->
+      <div class="row">
+          <div class="weather">
+              <h2>Today</h2>
+              <img src="./imgs/some_rain.png" alt="rain">
+              <p>some rain</p>
+              <p class="numbers">
+                    <span class="red-num">24°</span>
+                    <span class="blue-num">18°</span>
+              </p>
+              </div>
+              <div class="weather">
+                <h2>Tomorrow</h2>
+                <img src="./imgs/some_sun.png" alt="sun">
+                <p>some sun</p>
+                <p class="numbers">
+                      <span class="red-num">27°</span>
+                      <span class="blue-num">19°</span>
+                </p>
+          </div>
+          <div class="weather">
+            <h2>Friday</h2>
+            <img src="./imgs/some_clouds.png" alt="clouds">
+            <p>some clouds</p>
+            <p class="numbers">
+                  <span class="red-num">21°</span>
+                  <span class="blue-num">16°</span>
+            </p>
+      </div>
+      <div class="weather">
+        <h2>Saturday</h2>
+        <img src="./imgs/some_sun.png" alt="sun">
+        <p>some sun</p>
+        <p class="numbers">
+              <span class="red-num">26°</span>
+              <span class="blue-num">21°</span>
+        </p>
+      </div>
+      </div>
+    </div>
+    <!-- footer "cookies" -->
+    <div class="footer">
+        <div class="cookieMessage" id="cookie">
+          <img src="./imgs/cookie.png" alt="cookie">
+          <div class="text">
+              <h2>Stop! Cookie time.</h2>
+              <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our traffic.<a href="#">Read more...</a></p>
+          </div>
+          <button class="btn" onclick="acceptCookie()">Accept</button>
+        </div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
